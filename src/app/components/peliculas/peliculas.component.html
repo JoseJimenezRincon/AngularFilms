@@ -1,3 +1,67 @@
-<div>
-    <a router-link="./peliculas"> <button type="button" class="btn btn-primary ">Prueba</button> </a>
+<div class="col-md-12">
+
+  <div class="col-md-3 col-xs-3">
+    <img src="../../../assets/gandalf.jpg" class="img-responsive" alt="gandalf">
+  </div>
+
+  <div class="col-md-6 col-xs-6 marginTop">
+    <img src="../../../assets/peliculas.jpg" class="img-responsive" alt="peliculas">
+    <div class="row">
+      <div class="centered">
+        <label><h1>Películas</h1></label>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-xs-4">
+          <label>
+          Título
+          </label>
+          <input type="text" name="titulo" id="titulo" class="form-control" required="required">
+        </div>
+        <div class="col-md-4 col-xs-4"></div>
+        <div class="col-md-4 col-xs-4">
+          <label>Disponibilidad</label>
+          <div class="radio">
+            <div>
+              <label><input type="radio" name="libre" value="Libre" checked="checked">Libre</label>
+            </div>
+            <div>
+              <label><input type="radio" name="alquilada" disabled value="Alquilada">Alquilada</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <label>Género</label>
+        <div class="checkbox">
+          <label><input type="checkbox" value="">Drama</label>
+          <label><input type="checkbox" value="">Comedia</label> 
+          <label><input type="checkbox" value="">Acción</label> 
+          <label><input type="checkbox" value="">Ciencia Ficción</label> 
+          <label><input type="checkbox" value="">Fantasía</label> 
+          <label><input type="checkbox" value="">Terror</label> 
+          <label><input type="checkbox" value="">Romance</label> 
+          <label><input type="checkbox" value="">Musical</label> 
+          <label><input type="checkbox" value="">Melodrama</label> 
+          <label><input type="checkbox" value="">Suspense</label> 
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <label>
+          Sinopsis
+        </label>
+        <textarea class="form-control"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-3 col-xs-3">
+    <img src="../../../assets/elrond.jpg" class="img-responsive" alt="elrond">
+  </div>
+
 </div>
